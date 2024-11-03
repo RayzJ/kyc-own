@@ -1,0 +1,66 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/3d-rendering-blockchain-technology_23-2151480192.jpg?t=st=1730443406~exp=1730447006~hmac=545922f02497a07ecb7ebea7f2b75fa91b5d9b7e1af901d2f86c0a436443adb3&w=740'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for content */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+}
+
+/* Top-right buttons */
+.top-right {
+    position: absolute;
+    top: 20px;
+    left: 20px; /* Ensuring it is on the right */
+    display: flex;
+    gap: 10px; /* Add space between buttons */
+}
+
+.top-right button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 120px; /* Optional: Set width for consistent button size */
+    text-align: center;
+}
+
+.top-right button:hover {
+    background-color: #0056b3;
+}
+
+/* Welcome section styling */
+.welcome-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.welcome-section h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+/* Fullscreen layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Allow stacking */
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Optional background color */
+}
+
+/* Top-right button */
+.top-right {
+    position: absolute;
+    top: 10px; /* Adjusted for better placement */
+    right: 10px; /* Adjusted for better placement */
+}
+
+/* Container for content */
+.container {
+    width: 80%; /* Adjust width as necessary */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Table styling */
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
